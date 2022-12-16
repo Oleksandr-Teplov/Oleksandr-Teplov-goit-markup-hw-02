@@ -11,8 +11,9 @@ text-decoration: none;
 }
 .header-navigation {
 }
-.header-link, .header-logo {
-    font-weight: 800;
+.header-logo, .header-web {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
 display: flex;
@@ -20,12 +21,16 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-.header-link {
-font-family: 'Raleway';
-color: #4D5AE5;
+.header-web{
+    color: #4D5AE5;
 }
-.header-logo{
-font-family: 'Raleway';
+header-logo{
+}
+.header-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
 }
 .list-item {
 }
@@ -37,10 +42,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .list-link:hover {
-    columns: #ff6c00;
-}
-.list-link:focus {
-    columns: #eb0707;
+    color: #ff6c00;
 }
 .mail, .tell-numer {
 font-size: 16px;
@@ -62,7 +64,7 @@ color: #FFFFFF;
 
 }
 .button {
-font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
@@ -70,9 +72,121 @@ line-height: 3.18;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-color: inherit;
+color: #FFFFFF;
 background: #4D5AE5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor: pointer;
+}
+/*----- SECTION MISSION -----*/
+.mission-title-list {
+}
+.mission-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.mission-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+/*-----SECTION JOB-----*/
+.job-header {
+   
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+/*-----SECTION TEAM-----*/
+.team {
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.team-list {
+}
+.team-item {
+}
+.team-image {
+}
+.team-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.20;
+letter-spacing: 0.02em;
+}
+.team-text {
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.footer{
+background-color: #2E2F42;
+}
+.footer-text{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.50;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+/* ----PORTFOLIO PAGE----- */
+
+/* FILTERS */
+
+.filter-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.50;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background: #F4F4FD;
+    color: #4D5AE5;
+    cursor: pointer;
+
+    
+    }
+.filter-btn:hover{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.50;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/*------- SECTION FILTERS----- */
+
+.filters-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    letter-spacing: 0.02em;
+}
+.filters-terxt{
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
 }
