@@ -38,6 +38,9 @@ header-logo{
     line-height: 1.50;
     letter-spacing: 0.02em;
 }
+.list-item .current{
+color: #000000;
+}
 
 .list-link {
 font-weight: 600;
