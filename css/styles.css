@@ -213,8 +213,6 @@ color: var(--footer-text);
     background: var(--footer-logo);
     color: var(--button-color);
     cursor: pointer;
-
-    
     }
 .filter-btn:hover,
 .filter-btn:focus{
@@ -227,7 +225,7 @@ color: var(--footer-text);
     color: var(--white-color);
 }
 
-/*------- SECTION FILTERS----- */
+/*------ SECTION FILTERS---- */
 
 .filters-title{
 font-weight: 500;
